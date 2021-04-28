@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --default-font: "Inter", sans-serif;
   --font-monospace: "Operator Mono", "Jetbrains Mono", monospace;
@@ -96,7 +95,7 @@
   line-height: 1.5em;
 }
 
-.cm-s-obsidian .cm-formatting-link {
+.cm-s-obsidian .cm-formatting-link, .cm-s-obsidian .cm-formatting-image {
   color: var(--pink) !important;
 }
 
@@ -1250,4 +1249,3 @@ textarea:hover {
   color: #b4c2f0;
 }
 
-/*# sourceMappingURL=obsidian.css.map */
